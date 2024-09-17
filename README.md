@@ -1,11 +1,14 @@
 <h1 align="center">
     <img alt="JavaScript" title="#estudosJs" src="./img/jsImg.png" width='20%' align="center"/>
     <br>
-    Estudos da Linguagem JavaScript
+    🦊🐻🐼🐻🐨🐯
+    <br>
+    Estudos JavaScript
 </h1>
-<p align="center" style='color: #539BEF;'>Este repositório é destinado para compartilhar todo conhecimento aprendido com linguagem de programação <b>JavaScript</b></p>
 
-# O que é JavaScript?
+Este repositório é destinado para compartilhar todo conhecimento aprendido com a linguagem de programação <b>JavaScript</b>
+
+# 🐼 O que é JavaScript?
 <p>
     É uma linguagem de programação de alto nível (que se aproxima da linguagem humano - inglês). E considerada uma linguagem interpretada / funcional.
 </p>
@@ -35,7 +38,7 @@
     - React Native para desenvolvimento Mobile;
     - Vue Native para desenvolvimento Mobile;
 
-# JavaScript não é Java.
+# 🐗 JavaScript não é Java.
 
 <h2>
     Comentários
@@ -47,7 +50,26 @@
     o responsável pelo código criado, como lembrete.
 </p>
 
-# Escopo de variável
+# 🦁 Variáveis
+<p>
+  Em Javascript não poderia ser diferente de qualquer outra linguagem, aqui temos seus tipos de variáveis: 
+  
+`string` 
+
+`number` 
+
+`boolean` 
+
+`null` 
+
+`undefined` 
+
+`object` 
+
+`array`
+</p>
+
+# 🦊 Escopo de variável
 <p>
     O escopo refere-se ao local em onde podemos acessar a variável no algoritmo.
     As variáveis podem ser locais ou globais (verificar exemplo no arquivo 
@@ -62,18 +84,86 @@
 
 <hr>
 
-# Operadores
-| Operador Aritmético |  Descrição  |
-| ----------- | ----------- |
-| + | Adição |
-| - | Subtração |
-| * | Multiplicação |
-| / | Divisão |
-| % | Módulo - Resto de uma operação de divisão |
-| ++ | Incremento
-| -- | Decremento
+# 🐶 Operadores
+<p>
+    Precisamos de operadores quando realizamos qualquer operação em uma linguagem de programação, e em Javascript temos operadores aritméticos, de atribuição, de comparação, lógicos, bit a bit (bitwise), unários e entre outros.
+</p>
 
- Operador Atribuição |  Descrição  |
-| ----------- | ----------- |
-| = | Atribuição |
-| += | Atribuição de soma (x += y) == (x = x + y) |
+| Operador Aritmético |  Descrição  | Exemplos |
+| ----------- | ----------- | ----------- |
+| + | Adição | <b>var somar = 2 + 2</b> |
+| - | Subtração |<b>var subtrair = 15 - 10</b> |
+| * | Multiplicação | <b>var multi = somar * subtrair </b> |
+| / | Divisão | <b>var somar = multi / 2</b> |
+| % | Módulo - Resto de uma operação de divisão | <b>var mod = 50 % 10 </b> |
+| ++ | Incremento | <b>var i = mod++</b> |
+| -- | Decremento | <b>var d = mod--</b> |
+
+ Operador Atribuição |  Descrição  | Exemplos |
+| ----------- | ----------- | ----------- |
+| = | Atribuição | var num = 10 |
+| += | Atribuição de soma (x += y) == (x = x + y) | num += 1 |
+| -= | Atribuição de subtração (x -= y) == (x = x - y) | num -= 2|
+| *= | Atribuição de Multiplicação (x *= y) == (x = x * y) | num *= 3|
+| /= | Atribuição de Divisão (x /= y) == (x = x / y) | num /= 2|
+| %= | Atribuição de resto (x %= y) == (x = x % y) | num %= 3|
+
+ Operador de comparação |  Descrição  | Exemplos |
+| ----------- | ----------- | ----------- |
+| == | Igual a | a == b |
+| === | Igual a - tanto o valor quanto o tipo | a === b |
+| != | Diferente de | a != b |
+| > | Maior que | a > b |
+| >= | Maior ou igual a | a >= b |
+| < | Menor que | a < b |
+| <= | Menor ou igual a | a <= b |
+
+
+ Operadores lógicos |  Descrição  | Exemplos |
+| ----------- | ----------- | ----------- |
+| && | E | a == b && c > d |
+| *||* | Ou | a == b // c < d |
+| ! | Negação | !ab |
+
+- Também temos o operador "typeof", que nos retorna a descrição do tipo da variável.
+    - console.log(typeof 22) --> number 
+    - console.log(typeof false) --> boolean 
+    - console.log(typeof "JS") --> string 
+    - console.log(typeof [1,2,3]) --> object 
+
+# 🐨 Verdadeiro e falso
+- [x] True and false. Alguns tipo de dados em Javascript podem ser avaliados e retonar um valor booleando como true ou false.
+    - undefined: false;
+    - null: false;
+    - Boolean: true ou false
+    - Number: false para -0, +0 ou NaN, caso contrario é true;
+    - String: uma string vazia retorna false, caso contrário é true;
+    - Object: true.
+
+# 🦅 Estruturas de controle
+<p>
+    A linguagem JavaScript tem um conjunto de estruturas de controle semelhante ao das linguagens C e Java. Instruções condicionais são tratadas com <b>if...else e switch</b>. Laços são tratados com as construções <b>while, do...while e for</b>
+</p>
+
+<b>Estrutura de condição</b>
+| <b>if else</b>
+| ----------- |
+| <img src='https://user-images.githubusercontent.com/61126545/189651413-04b95aa0-e745-4ec6-b337-a01c1a438ffa.png'> |
+
+| <b>ternário</b> |
+| ----------- |
+|![ternary](https://user-images.githubusercontent.com/61126545/191074178-23434b36-b0e5-46fb-b017-75bfad79132c.png) |
+
+| <b>switch</b> |
+| ----------- |
+| <img src='https://user-images.githubusercontent.com/61126545/189652167-25c4455b-ec41-42c2-8e14-4c2e309c5ef5.png'> |
+
+<br><br>
+<b>Estrutura de repetição (exemplos)</b>
+| <b>Uso do For - ex01</b> |
+| ----------- |
+| ![for01](https://user-images.githubusercontent.com/61126545/191086566-176ec58b-a7bd-4605-90ea-02d328a55154.png)
+
+| <b>Uso do For - ex02</b> |
+| ----------- |
+| ![for02](https://user-images.githubusercontent.com/61126545/191085904-c269005a-d3d0-48a3-9d86-202ee74d29c9.png) |
